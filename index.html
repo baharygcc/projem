@@ -1,38 +1,52 @@
 <html>
-<head>
-<title>BAHAR YAĞCI</title>
-<meta charset="utf8">
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-</head>
-<body>
-<div class="container">
-<div class="header">
-<div class="logo"><img src="img/bhr.png"></div>
-<div class="menu">
-<ul>
-<li><a href="index.html">Anasayfa</a></li>
-<li><a href="hakkımda.html">Hakkımda</a></li>
-<li><a href="iletisim.html">İletişim</a></li>
+  <head>
+    <!-- Meta etiketleri ile ek bilgiler veriliyor -->
+    <meta name="author" content="Acemi tasarımcı">
+    <meta name="description" content="Acemi tasarımcı web okulu">
+    <meta name="keywords" content="web,html,css">
+    <meta http-equiv="content" content-type="text/html; charset=iso-8859-9">
+    <title>İlk HTML Denemem</title>
+  </head>
 
-</ul>
-</div>
-</div>
-<div class="sag">Web sitelerinin vazgeçilmezi olan HTML (Hyper Text Markup Language), bir programlama dili olarak tanımlanamaz. Zira HTML kodlarıyla kendi başına çalışan bir program yazılamaz. Ancak bu dili yorumlayabilen programlar aracılığıyla çalışabilen programlar yazılabilir. Programlama dili denilememesinin nedeni tam olarak budur. HTML dosyalarının aktarımı için HTTP (Hyper Text Transfer Protocol) kullanılır.  Temel gereği yazı, görüntü, video gibi değişik verileri ve bunları içeren sayfaları birbirine basitçe bağlamak, buna ek olarak söz konusu sayfaların web tarayıcısı yazılımları tarafından düzgün olarak görüntülenmesi için gerekli kuralları belirlemektir. HTML kodunu web tarayıcıları okur, yorumlar ve görsel hale dönüştürürler, dolayısıyla aynı HTML kodunun farklı tarayıcılarda farklı sonuç vermesi olasıdır.
-Bu farklılıkları, tasarımı, düzeni vb. sağlayan ve HTML yanında mutlaka kullanılan CSS kullanılır.Cascading Style Sheets (Basamaklı Stil Şablonları ya da Basamaklı Biçim Sayfaları, bilinen kısa adıyla CSS), HTML'e ek olarak metin ve format biçimlendirme alanında fazladan olanaklar sunan bir Web teknolojisidir. Bir web sitesi içerisinde birbiriyle uyumlu renk ve yazı tipi gibi öğelerin her sayfa için ayrı ayrı değil de tek bir yerden yönetilmesi anlamına gelen bir çeşit kodlama türüdür.CSS kullanarak HTML ile yapamayacağımız birçok şeyi yapabiliriz. Bir sayfadaki tüm ögeleri veya belli bir kısım ögeyi renk, boyut, arkaplan resmi, sayfadaki konumu, sağından solundan olan boşlukları ve daha birçok özelliği yönünden CSS ile tanımlayabiliriz. Bir CSS dosyasıyla bütün sayfalarınızın stilini oluşturabileceğiniz için sayfalarınızın boyutu küçülür, yükü hafifler. CSS ayrıca öğrenmesi en kolay dillerden birisidir.
-CSS Öğrenmek için Gerekli Ön Bilgiler;CSS öğrenmek için gereken en önemli bilgi Temel HTML bilgisidir. HTML bilmeden CSS kodlarını kullanmanız çok zor olacaktır. Bu dökümanda anlatacağım konu CSS olduğu için HTML bildiğinizi varsayıyorum. HTML öğrenmeden CSS’ye başlamamanızı tavsiye ederim.
-CSS öğrenmek için diğer gerekli bilgi ise İngilizce’dir. Tabi ki ingilizceyi su gibi bilmek değil bu sadece CSS kodları içinde geçen kelimeler İngilizce’dir ve bu kelimelerin büyük bir çoğunluğunun ifade ettiği şey Türkçe karşılığı olan kelimeyle alakalıdır. Yine de ezberiniz iyiyse İngilizce bilmeniz de şart değil  </div>
-<div class="sol">
-<div class="profil"><img src="img/ben.jpg"></div>
-<div class="bilgi"><center>HESAPLARIM</center><hr></div>
-<div class="sosyal"><a href="https://www.instagram.com/bahar.ygcc/?hl=tr"> bahar.ygcc
-<img src="img/instagram.png">
-<a href="https://myaccount.google.com/?tab=kk">
-baharahsgss@gmail.com
-<img src="img/gmail.png">
-</div></div>
+  <!-- Body etiketi ile sayfamızdaki renkleri ayarlıyoruz -->
+  <body text="#000000" bgcolor="#ffffff" link="#808080" vlink="#eaeaea" alink="#000000">
+    <h1> Bu büyük boyutlu ortalanmamı bir başlık</h1>
+    <br><center>
+      <h1> Bu da büyük boyutlu bir başlık fakat ortalanmış.</h1>
+    </center>
 
-</div>
+    <!--
+      Center etiketi ile ortalama bittiği için buradan sonra sola dayalı
+      yazılacaktır.
+    -->
+    <br><br>
+    <font face="verdana" size="5" color="#800000">
+      Buradan itibaren paragrafıma başlayacağım.
+    </font>
 
-</body>
+    <!-- p etiketi kendiliğinden bir satır boşluk verdiği için satır atlamadım -->
+    <p>
+      Bu sayfayı yapmaktaki amacım etiketlerin ve bağlı kodların nasıl
+      kullanıldığını göstermektir. Yukarıdaki kırmızı başlığı &lt;font>
+      etiketini kullanarak elde ettim. İnternette gezerken ziyaret ettiğiniz
+      sayfaların kaynağını görüntüleyerek de değişik teknikler öğrenebilirsiniz.
+    </p>
+
+    <!-- başka sayfalara link verelim -->
+    <a href="mailto:fni18444@gantep.edu.tr">Bana e-mail yollayın</a><br><br>
+    <br><br>
+
+    <!-- HTML dosyanızı yazdığınız dizine abc.png adli bir resim yerleştirin -->
+    Aşağıdaki resmin görüntülenmesi için HTML dosyanızın olduğu dizine
+    <b>abc.png</b> resmini oluşturmalısınız.<br>
+    <a href="http://www.belgeler.org"><img src="abc.png" border="0"></a>
+    <br><center>
+    <hr width=80%>
+    <u>Bu altı çizili bir yazı</u>, <i>bu yana yatık, italik, bir yazı</i><br>
+    Bu sayfanın amacı <acronym title="Hyper Text Markup Language">HTML</acronym>
+    kodları hakkında bilgi vermektir.
+    <hr width=80%>
+
+    <!-- Sayfanın başında başlatmış olduğumuz body etiketini bitiriyoruz. -->
+  </body>
 </html>
